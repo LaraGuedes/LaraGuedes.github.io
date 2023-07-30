@@ -81,3 +81,7 @@ header{
 #header-texto p{
     font-size: 26px;
 }
+
+#header-texto h1{
+    font-weight: 100;
+}
