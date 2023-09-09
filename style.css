@@ -1,87 +1,87 @@
 *{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body{
+#conteudo{
     width: 100%;
     height: 100vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.conteudo{
-    height: 100%;
-}
-
-@media screen and (max-width: 1200px){
-    nav ul{
-        display: none;
-    }
-}
-
-nav{
-    width: 100%;
-    height: 20%;
-    background-color: #FCF6F8; 
-    display: flex;
-}
-
-#menu-logo{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    margin-left: 5%;
-}
-
-#menu-lista{
-    width: 50%;
-    margin-top: 60px;
-}
-
-#menu-lista li{
-    list-style: none;
-    display: inline;
-    margin-left: 30px;
 }
 
 header{
     width: 100%;
-    height: 80%;
-    background-color:#C9A9AE;
+    height: 100px;
+    background-color: #FCF6F8;
 }
 
-.header-fundo{
+#imagem-header{
+    display: inline-block;
+    position: absolute;
+    margin-left:5% ;
+    margin-top: 0.5% ;
+    width: 8%;
+    height: 10%;
+}
+
+nav{
+    float: right;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+}
+
+nav li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#inicio{
+    width: 100%;
+    height: 80%;
+    background-color:#C9A9AE;
     display: flex;
     margin: auto;
     background-image:url('./imagens/portifolio\ \(1\).png');
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: 1px solid #C9A9AE;
-    height: 80%;
-    width: 100%;
     padding-top: 10%;
-    margin: auto;
+    /* margin: auto; */
     justify-content: center;
 }
 
-#header-foto{
-    display: flex;
-    width: 20%;
-    height: 80%;
-    padding-right: 5%;
-    transform: rotate(-15deg);
-}
 
-#header-texto{
-    width: 50%;
+#img-inicio{
+    display: block;
+    width: 80%;
     height: 50%;
-    padding-top: 10%;
-    text-align: center;
+    border-radius: 50px;
 }
 
-#header-texto p{
-    font-size: 26px;
+#txt-inicio{
+    width: 50%;
 }
 
-#header-texto h1{
-    font-weight: 100;
+@media screen and (max-width:400px) {
+    nav li{
+        display:none ;
+    }
+
+    #imagem-header{
+        margin-top: 0.5% ;
+        width: 30%;
+        height: 30%;
+    }
+
 }
