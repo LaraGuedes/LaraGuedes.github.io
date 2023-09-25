@@ -1,10 +1,13 @@
 *{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body{
+#conteudo{
     width: 100%;
     height: 100vh;
+<<<<<<< HEAD
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -36,24 +39,66 @@ nav{
     list-style: none;
     display: inline;
     margin-left: 30px;
+=======
+>>>>>>> ee06bf7f024a373bc320b69f47c9c4a4460ce463
 }
 
 header{
     width: 100%;
-    height: 80%;
-    background-color:#C9A9AE;
+    height: 100px;
+    background-color: #FCF6F8;
 }
 
+<<<<<<< HEAD
 .header-fundo{
     height: 80%;
     width: 100%;
     padding-top: 5%;
+=======
+#imagem-header{
+    display: inline-block;
+    position: absolute;
+    margin-left:5% ;
+    margin-top: 0.5% ;
+    width: 8%;
+    height: 10%;
+}
+
+nav{
+    float: right;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+}
+
+nav li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#inicio{
+    width: 100%;
+    height: 80%;
+    background-color:#C9A9AE;
+    display: flex;
+>>>>>>> ee06bf7f024a373bc320b69f47c9c4a4460ce463
     margin: auto;
     background-image:url('./imagens/portifolio\ \(1\).png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     border-bottom: 1px solid #C9A9AE;
+<<<<<<< HEAD
     justify-content: center;
 }
 
@@ -302,3 +347,34 @@ header a{
         width: 40%;
     }
 }
+=======
+    padding-top: 10%;
+    /* margin: auto; */
+    justify-content: center;
+}
+
+
+#img-inicio{
+    display: block;
+    width: 80%;
+    height: 50%;
+    border-radius: 50px;
+}
+
+#txt-inicio{
+    width: 50%;
+}
+
+@media screen and (max-width:400px) {
+    nav li{
+        display:none ;
+    }
+
+    #imagem-header{
+        margin-top: 0.5% ;
+        width: 30%;
+        height: 30%;
+    }
+
+}
+>>>>>>> ee06bf7f024a373bc320b69f47c9c4a4460ce463
