@@ -1,3 +1,4 @@
+// Cor da página
 function alterarTemaSite() {
     let tema = document.querySelector("html").getAttribute("data-bs-theme")
     if(tema === "light"){
@@ -9,3 +10,5 @@ function alterarTemaSite() {
         document.querySelector("#alterarTemaSite").innerHTML = `<i class="bi bi-sun-fill"> </i>`
     }
 }
+
+
