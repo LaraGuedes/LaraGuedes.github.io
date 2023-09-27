@@ -2,389 +2,520 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 body{
-    background-color:  #FCF6F8;
-}
-
-#conteudo{
-    width: 100%;
-    height: 100vh;
-    max-width: 1500px;
-    margin: auto;
-}
-
-.conteudo{
-    height: 100%;
-}
-
-nav{
-    max-width: 1500px;
-    width: 100%;
-    height: 80px;
-    background-color: #FCF6F8; 
-    display: flex;
-    margin: auto;
-}
-
-#menu-logo{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    margin-left: 5%;
-}
-
-#menu-lista{
-    width: 50%;
-    margin-top: 30px;
-}
-
-#menu-lista li{
-    list-style: none;
-    display: inline;
-    margin-left: 30px;
+    background-color: #C9A9AE;
 }
 
 header{
     width: 100%;
-    height: 700px;
+    height: 100px;
     background-color: #FCF6F8;
 }
 
-.header-fundo{
-    height: 100%;
+#imagem-header{
+    display: inline-block;
+    position: absolute;
+    margin-left:5% ;
+    margin-top: 0.5% ;
+    width: 8%;
+    height: 10%;
+}
+
+
+/* Banner projetos */
+
+#projetos-conteudo{
     width: 100%;
-    padding-top: 5%;
-    margin: auto;
-    background-image:url('./imagens/portifolio\ \(1\).png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    border-bottom: 1px solid #C9A9AE;
+    height: 100vh;
+    
+}
+
+.banner{
+    width: 100%;
+    margin-top: 5%;
+    background-color: white;
+}
+
+h2{
+    padding: 30px;
+}
+
+#imagem-logo{
+    width: 40%;
+}
+
+.cores-banner{
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#cores{
+    display: flex;
+    text-align: center;
     justify-content: center;
 }
 
-#header-foto{
-    width: 40%;
-    padding: 5px;
-    margin-top:10px;   
-    margin-left:10%;
-    background-color: #f0f0f0;
+#cardapio-cor1{
+    background-color:#C1E1EC;
 }
 
-#header-texto{
+#cardapio-cor2{
+    background-color:#80CCE2 ;
+}
+
+#cardapio-cor3{
+    background-color:#014AAD ;
+}
+
+#ods-cor1{
+    background-color: #97AE6F ;
+}
+
+#ods-cor2{
+    background-color: #41730B;
+}
+
+#ods-cor3{
+    background-color: #f7f7f7 ;
+}
+
+#lista-cor1{
+    background-color: #add8e6;
+}
+
+#lista-cor2{
+    background-color: #B8D6E6 ;
+}
+
+#lista-cor3{
+    background-color: #55A1D2;
+}
+
+#carros-cor1{
+    background-color: #212326 ;
+    color: white;
+}
+
+#carros-cor2{
+    background-color: #736F6E;
+    color: white;
+}
+
+#carros-cor3{
+    background-color: #5C5854;
+    color: white;
+}
+
+#mulheres-cor1{
+    background-color: #C8C9CD ;
+}
+
+#mulheres-cor2{
+    background-color: #8C8F95;
+}
+
+#mulheres-cor3{
+    background-color: #F1FDE8;
+}
+
+#imagem-tamplate{
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.visite-projeto{
+    width: 100%;
+    margin-top: 5%;
     text-align: center;
-    margin: auto;
+    background-color: white;
 }
 
-header a{
-    text-decoration: none;
+#sobre-mim{
+    margin-top: 5%;
+    padding: 20px;
+    text-align: center;
+    background-color: #FCF6F8;
     color: black;
 }
 
-.sobre{
+.img-social{
+    width: 10%;
+    padding: 5px;
+}
+
+#icon-social{
+    display: flex;
+    text-align: center;
+    justify-content: center;
     width: 100%;
 }
 
-/* #sobre-img{
-    display: flex;
-    width: 50%;
-    height: 100%;
+footer{
+    width: 100%;
 }
 
-#sobre-img img{
-    border-radius: 50%;
-    width: 60%;
-} */
-
-
-/* Animação habilidades */
-.habilidades{
+#creditos-footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
     background-color: #FCF6F8;
-    padding: 9px;
-    border-radius: 9px;
-    margin: 50px 40px;
-    box-shadow: 0 14px 20px;
-}
-
-.habilidades h2{
+    color: black;
     text-align: center;
 }
 
-.habilidades h3{
-    margin: 5px;
-}
 
-.habilidades li {
-    padding: 9px;
-    margin: 10px 0;
-    list-style: none;
-}
 
-.bar{
-    background-color: whitesmoke;
-    display: block;
-    height: 24px;
-    border: 1px solid rgb(0, 0, 0.3);
-    transition: all 0.3 cubic-bezier(.25, .8, .25, 1);
-}
-
-.bar:hover{
-    box-shadow: 0 14px 3px rgb(0,0, 0, 0.25), 0 10px 10px rgb(0,0, 0, 0.25);
-}
-
-.bar span{
-    height: 20px;
-    float: left;
-    background: linear-gradient(135deg, #C9A9AE, rgb(233, 224, 232)100%);
-}
-
-.html{
-    width: 90%;
-    animation: html 3s;
-}
-
-@keyframes html{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 90%;
-    }
-}
-
-.css{
-    width: 70%;
-    animation: css 3s;
-}
-
-@keyframes css{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 70%;
-    }
-}
-
-.js{
-    width: 50%;
-    animation: js 3s;
-}
-
-@keyframes js{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 50%;
-    }
-}
-
-.python{
-    width: 60%;
-    animation: python 3s;
-}
-
-@keyframes python{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 60%;
-    }
-}
-
-.java{
-    width: 40%;
-    animation: java 3s;
-}
-
-@keyframes java{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 40%;
-    }
-}
-
-.competencias{
-    background-color: #FCF6F8;
-    padding: 9px;
-    border-radius: 9px;
-    margin: 50px 40px;
-    box-shadow: 0 14px 20px;
-}
-
-#baixar{
-    margin: auto;
-}
-
-#baixar li{
-    list-style: none;
-    background-color: #C9A9AE;
-    border-radius: 24px;
-    margin-top: 8px;
-}
-
-#baixar a{
-    text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-}
-
-#baixar li:hover{
-    box-shadow: 0 10px 14px;
-    cursor: pointer;
-}
 
 /* Medias */
-@media screen and (max-width:400px) {
-    #menu-lista{
-        display: none;
+
+
+/* Celular */
+@media screen and (max-width:500px) {
+    h2{
+        font-size: 20px;
     }
 
-    #header-foto{
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        border: 1px solid blue;
+    .fonte{
+        font-size: 10px;
     }
 
-    #header-texto{
+    #imagem-header{
+        margin-top: 0.5% ;
+        width: 30%;
         height: 30%;
-        padding-top: 10%;
-        text-align: center;
+    }
+
+    #banner-conteudo{
+        width: 90%;
+        padding: 10px;
         margin: auto;
     }
 
+    .banner{
+        height: 50vh;
+    }
+
+    #sobre{
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    #sobre-ods{
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 10px;
+    }
+
     #sobre-texto{
+        text-align: center;
+        width: 100%;
+    }
+
+    #sobre-icone{
+        display: flex;
+        width: 10%;
+        margin-left: 130px;
+    }
+
+    #sobre-icone2{
+        display: flex;
+        width: 10%;
+        margin-left: 120px;
+    }
+
+    #imagem-inicial{
+        padding-top: 50px;
+    }
+
+    #imagem-inicial2{
+        padding-top:60px;
+    }
+
+    #imagem-logo{
+        margin: auto;
+    }
+
+    #sobre-logo{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    
+
+    .cores-banner{
+        width: 23%;
+        height: 15vh;
+        padding: 5px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    #cores p{
+        font-size: 10px;
+        margin-top: 110px;
+    }
+
+    #carros-cor1{
+        color: black;
+    }
+    
+    #carros-cor2{
+        color: black;
+    }
+    
+    #carros-cor3{
+        color: black;
+    }
+
+    #imagem-tamplate-ods{
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #imagem-tamplate-ods-celular{
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 50px;
+    
+    }
+
+    #img-sobre{
+        width: 50%;
+        padding: 5px;
+        margin-top:10px ;
+        background-color: #C9A9AE;
+        margin-left: 22%;
+    } 
+
+}
+
+
+/* Tablet */
+@media screen and (min-width:700px) {
+
+    #banner-conteudo{
+        height: 100%;
+        margin: auto;
+        max-width: 1000px;
+        padding: 10px;
+    }
+
+    .banner{
+        height: 50vh;
+    }
+
+    #sobre{
+        margin-top: 155px;
+        margin-left: 210px;
+    }
+
+    #sobre-ods{
+        margin-top: 70px;
+        margin-left: 210px;
+    }
+
+    #sobre-texto{
+        text-align: center;
+        width: 70%;
+    }
+
+    #sobre-icone{
+        display: flex;
+        width: 10%;
+        margin-left: 130px;
+    }
+
+    #sobre-icone2{
+        display: flex;
+        width: 10%;
+        margin-left: 100px;
+    }
+
+    #imagem-inicial{
+        padding-top: 0px;
+    }
+
+    #imagem-inicial2{
+        padding-top:65px;
+    }
+
+    #criacao-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 85px;
+    }
+
+    #sobre-logo{
         width: 40%;
         text-align: justify;
     }
 
-    .curriculo2{
-        width: 90%;
-        height: 300px;
-        margin: auto;
-        background-color: #FCF6F8;
-        text-align: center;
+    .cores-banner{
+        width: 23%;
+        height: 20vh;
+        margin-left: 30px;
+        margin-top: 120px;
+    }
+
+    #cores p{
+        margin-top: 95px;
+    }
+
+    #imagem-tamplate-ods{
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+
+    #imagem-tamplate-ods-celular{
+        margin-top: 100px;
+        margin-left: 250px;
+    }
+
+   /* Sobre mim */
+    .texto-sobreMim{
+        width: 30%;
     }
 
 
-    #currico-aberto{
-        display: none;
-    }
-
-    #baixar{
-        margin-left: 0px;
-        text-align: center;
-    }
-
-    #baixar ul{
-        width: 80%;
-        margin-left: 15px;
-        text-align: center;
-    }
-
-}
-
-@media screen and (min-width:800px) {
-    .header-fundo{
+    #sobre-mim{
+        width: 97.5%;
+        height: 40vh;
+        padding: 10px;
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    #header-foto{
-        display: flex; 
+    #img-sobre{
+        width: 50%;
+        padding: 5px;
+        margin-top:10px ;
+        background-color: #C9A9AE;
+        margin-left: 10%;
+    } 
+
+    #img-sobre{
         width: 20%;
         transform: rotate(7deg);
     }
-    
-    #header-foto img{
+
+    #imagem{
         transform: rotate(-7deg);
     }
-    
-    #header-texto{
-        width: 50%;
-        height: 30%;
-    }
+}
 
-    #header-texto p{
-        font-size: 26px;
-    }
-    
-    #header-texto h1{
-        font-weight: 100;
-    }
 
-    .sobre{
-        height: 400px;
-        /* padding-left: 140px; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
+/* Computador */
+@media screen and (min-width:800px) {
+
+    #banner-conteudo{
+        height: 100%;
         margin: auto;
+        max-width: 1000px;
+    }
+
+    .banner{
+        height: 80vh;
+    }
+
+    #sobre{
+        margin-top: 120px;
+        margin-left: 240px;
+    }
+
+    #sobre-ods{
+        margin-top: 120px;
+        margin-left: 240px;
     }
 
     #sobre-texto{
-        width: 30%;
-        text-align: justify;
-        margin-right: 10%;
+        text-align: center;
+        width: 70%;
     }
 
-    #sobre-img{
+    #sobre-icone{
         display: flex;
+        width: 10%;
+        margin-left: 220px;
+    }
+
+    #sobre-icone2{
+        display: flex;
+        width: 10%;
+        margin-left: 190px;
     }
     
-    #sobre-img img{
-        border-radius: 50%;
-        flex-direction: row;
+    #imagem-inicial2{
+        padding-top:50px;
     }
 
-    .skils{
+    #criacao-logo{
         display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    #sobre-logo{
+        width: 40%;
+        text-align: justify;
+    }
+
+    .cores-banner{
+        width: 23%;
+        height: 30vh;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+
+    #cores p{
+        margin-top: 95px;
+    }
+
+    #imagem-tamplate-ods{
+        margin-left: 200px;
+    }
+
+    #imagem-tamplate-ods-celular{
+        margin-top: 100px;
+        margin-left: 250px;
+    }
+
+    /* Sobre mim */
+    .texto-sobreMim{
+        width: 30%;
+    }
+
+
+    #sobre-mim{
+        width: 100%;
+        height: 50vh;
+        padding: 10px;
+        display: flex;
+        align-items: center;
         justify-content: center;
     }
 
-    .habilidades{
-        width: 40%;
+    #img-sobre{
+        width: 50%;
+        padding: 5px;
+        margin-top:10px ;
+        background-color: #C9A9AE;
+        margin-left: 10%;
+    } 
+
+    #img-sobre{
+        width: 20%;
+        transform: rotate(7deg);
     }
 
-    .competencias{
-        width: 40%;
+    #imagem{
+        transform: rotate(-7deg);
     }
-
-    .curriculo{
-        display: flex;
-    }
-    
-    #currico-aberto{
-        padding-top: 20px;
-        width: 60%;
-        height: 100%;
-        margin: auto;
-    }
-
-    #baixar{
-        width: 30%;
-    }
-
-    #baixar ul{
-        width: 80%;
-        margin-left: 30px;
-        text-align: center;
-    }
-
-    .curriculo2{
-        width: 100%;
-        height: 600px;
-        margin: auto;
-        padding: 10px;
-        background-color: #FCF6F8;
-        text-align: center;
-    }
-
 }
