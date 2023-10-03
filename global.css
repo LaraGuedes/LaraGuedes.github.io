@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -44,6 +45,16 @@ nav{
     list-style: none;
     display: inline;
     margin-left: 30px;
+}
+
+#menu-lista li:hover{
+    cursor: pointer;
+    background-color: #C9A9AE;
+}
+
+#menu-lista a{
+    color: black;
+    text-decoration: none;
 }
 
 header{
@@ -218,6 +229,15 @@ header a{
     box-shadow: 0 14px 20px;
 }
 
+.competencias h2{
+    text-align: center;
+}
+
+.competencias li{
+    padding: 10px;
+    font-size: 20px;
+}
+
 #baixar{
     margin: auto;
 }
@@ -352,6 +372,7 @@ header a{
 
 footer{
     width: 100%;
+    height: 20px;
 }
 
 #creditos-footer{
@@ -371,6 +392,8 @@ footer{
     }
 
     #header-foto{
+        margin-left: 110px;
+        margin-top: 50px;
         align-items: center;
         text-align: center;
         justify-content: center;
@@ -379,15 +402,17 @@ footer{
     }
 
     #header-texto{
-        height: 30%;
+        height: 80%;
         padding-top: 10%;
         text-align: center;
-        margin: auto;
+        /* margin: auto; */
     }
 
     #sobre-texto{
-        width: 40%;
+        width: 80%;
+        padding-top: 30px;
         text-align: justify;
+        margin: auto;
     }
 
     .curriculo2{
@@ -448,6 +473,21 @@ footer{
         margin: auto;
         text-align: center;
     }
+
+    footer{
+        width: 100%;
+        height: 20px;
+    }
+    
+    #creditos-footer{
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        background-color: #E8CFD2;
+        color: black;
+        text-align: center;
+    }
+    
 }
 
 @media screen and (min-width:800px) {
@@ -457,7 +497,8 @@ footer{
 
     #header-foto{
         display: flex; 
-        width: 20%;
+        width: 25%;
+        height: 80%;
         transform: rotate(7deg);
     }
     
@@ -472,6 +513,10 @@ footer{
 
     #header-texto p{
         font-size: 26px;
+    }
+
+    #header-texto i{
+        font-size: 36px;
     }
     
     #header-texto h1{

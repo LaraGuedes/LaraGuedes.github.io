@@ -15,6 +15,33 @@ header{
     background-color: #FCF6F8;
 }
 
+nav{
+    max-width: 1500px;
+    width: 100%;
+    height: 80px;
+    background-color: #FCF6F8; 
+    display: flex;
+    margin: auto;
+}
+
+#menu-logo{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin-left: 5%;
+}
+
+#menu-lista{
+    width: 20%;
+    margin-top: 30px;
+}
+
+#menu-lista li{
+    list-style: none;
+    display: inline;
+    margin-left: 180px;
+}
+
 #imagem-header{
     display: inline-block;
     position: absolute;
