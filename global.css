@@ -246,18 +246,33 @@ header a{
     background-color: #E8CFD2;
 }
 
+.portifolio button{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.portifolio button:hover{
+    background-color: #E8CFD2;
+    box-shadow: 0 10px 10px;
+}
+
+.sobre-projeto{
+    width: 80%;
+    height: 20vh;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
 .certificados{
     width: 100%;
     height: 50%;
 }
 
-.forms{
-    width: 100%;
-    padding: 10px;
-}
-
 .forms form{
-    width: 50%;
+    width: 100%;
     background-color: #C9A9AE;
 }
 
@@ -298,6 +313,55 @@ header a{
     background-color: gray;
 }
 
+.forms button{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 99px;
+    color: black;
+    background-color: #E8CFD2;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.forms p{
+    text-align: center;
+    margin: auto;
+}
+
+.redes i{
+    width: 20%;
+    font-size: 2rem;
+    margin: 1px;
+}
+
+.redes a{
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 15px;
+    color: black;
+}
+
+.redes a:hover{
+    cursor: pointer;
+    background-color: #E8CFD2;
+}
+
+footer{
+    width: 100%;
+}
+
+#creditos-footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #E8CFD2;
+    color: black;
+    text-align: center;
+}
 
 
 /* Medias */
@@ -350,6 +414,40 @@ header a{
         text-align: center;
     }
 
+    #projetos-divs{
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 80px; */
+    }
+
+    .projetos{
+        display: block;
+        width: 300px;
+        height: 50vh;
+        flex-direction: row;
+        padding: 10px;
+        margin: 15px;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+
+    .conexao{
+        width: 100%;
+        height: 1150px;
+        background-color: #C9A9AE;
+        /* display: flex; */
+    }
+
+    .contato{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .redes{
+        margin: auto;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width:800px) {
@@ -448,15 +546,21 @@ header a{
     }
 
     #projetos-divs{
-        width: 100%;
-        /* display: flex; */
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 80px;
     }
 
     .projetos{
         display: block;
-        width: 30%;
+        width: 300px;
         height: 40vh;
+        flex-direction: row;
+        padding: 10px;
+        margin: 15px;
         border: 1px solid black;
+        border-radius: 15px;
     }
 
     #certificados-div{
@@ -464,5 +568,24 @@ header a{
         height: 100px;
     }
 
+    .conexao{
+        width: 100%;
+        background-color: #C9A9AE;
+        display: flex;
+    }
+
+    .forms{
+        width: 50%;
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+    .contato{
+        width: 40%;
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+    
+    }
 
 }
