@@ -44,12 +44,13 @@ nav{
 #menu-lista li{
     list-style: none;
     display: inline;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #menu-lista li:hover{
     cursor: pointer;
     background-color: #C9A9AE;
+    color: white;
 }
 
 #menu-lista a{
@@ -288,7 +289,8 @@ header a{
 
 .certificados{
     width: 100%;
-    height: 50%;
+    height: 55vh;
+    padding: 10px;
 }
 
 .forms form{
@@ -594,13 +596,13 @@ footer{
         flex-direction: row;
         display: flex;
         flex-wrap: wrap;
-        margin-left: 80px;
+        justify-content: space-around;
     }
 
     .projetos{
         display: block;
         width: 300px;
-        height: 40vh;
+        height: 50vh;
         flex-direction: row;
         padding: 10px;
         margin: 15px;
